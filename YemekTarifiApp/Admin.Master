@@ -21,12 +21,8 @@
             text-align: center;
             font-size: x-large;
         }
-        .auto-style5 {
-            color: #FFFFFF;
-        }
-        .auto-style6 {
-            color: #FFFFFF;
-            height: 23px;
+        .auto-style7 {
+            color: #000000;
         }
         </style>
 </head>
@@ -51,25 +47,25 @@
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td class="auto-style6">KATEGORİLER</td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><a href="Kategoriler.aspx"><span class="auto-style7"><strong>KATEGORİLER</strong></span></a></td>
                     </tr>
                     <tr>
-                        <td class="auto-style5">YEMEKLER</td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><a href="AdminYemek.aspx"><strong>YEMEKLER</strong></a></td>
                     </tr>
                     <tr>
-                        <td class="auto-style5">YORUMLAR</td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><strong>YORUMLAR</strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style5">MESAJLAR</td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><strong>MESAJLAR</strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style5">GÜNÜN YEMEĞİ</td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><strong>GÜNÜN</strong> <strong>YEMEĞİ</strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style5">ÖNERİLER</td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><strong>ÖNERİLER</strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style5">HAKKIMIZDA</td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><strong>HAKKIMIZDA</strong></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
