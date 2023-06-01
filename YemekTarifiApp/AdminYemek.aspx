@@ -81,7 +81,7 @@
                                 <a href="Kategoriler.aspx?CategoryId=<%#Eval("CategoryId")%>&islem=sil"> <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/Icons/clear.png" Width="30px" CssClass="auto-style14" /></a>
                             </td>
                             <td class="auto-style8">
-                                <a href="KategoriAdminDetay.aspx?CategoryId=<%#Eval("CategoryId")%>"> <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/Icons/updated.png" Width="30px" CssClass="auto-style14" /></a>
+                                <a href="AdminYemekGuncelle.aspx?YemekId=<%#Eval("YemekId")%>"> <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/Icons/updated.png" Width="30px" CssClass="auto-style14" /></a>
                             </td>
                         </tr>
                     </table>

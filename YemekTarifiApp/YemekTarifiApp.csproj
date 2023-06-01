@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Admin.aspx" />
     <Content Include="AdminYemek.aspx" />
+    <Content Include="AdminYemekGuncelle.aspx" />
     <Content Include="Global.asax" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkımızda.aspx" />
@@ -109,6 +110,13 @@
     </Compile>
     <Compile Include="AdminYemek.aspx.designer.cs">
       <DependentUpon>AdminYemek.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminYemekGuncelle.aspx.cs">
+      <DependentUpon>AdminYemekGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminYemekGuncelle.aspx.designer.cs">
+      <DependentUpon>AdminYemekGuncelle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Global.asax.cs">
