@@ -53,7 +53,7 @@
                         <td class="tb5" style="border: thin solid #FFFFFF"><a href="AdminYemek.aspx"><strong>YEMEKLER</strong></a></td>
                     </tr>
                     <tr>
-                        <td class="tb5" style="border: thin solid #FFFFFF"><strong>YORUMLAR</strong></td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><a href="AdminYorum.aspx"><strong>YORUMLAR</strong></a></td>
                     </tr>
                     <tr>
                         <td class="tb5" style="border: thin solid #FFFFFF"><strong>MESAJLAR</strong></td>

@@ -70,6 +70,8 @@
     <Content Include="Admin.aspx" />
     <Content Include="AdminYemek.aspx" />
     <Content Include="AdminYemekGuncelle.aspx" />
+    <Content Include="AdminYorum.aspx" />
+    <Content Include="AdminYorumDetay.aspx" />
     <Content Include="Global.asax" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkımızda.aspx" />
@@ -117,6 +119,20 @@
     </Compile>
     <Compile Include="AdminYemekGuncelle.aspx.designer.cs">
       <DependentUpon>AdminYemekGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminYorum.aspx.cs">
+      <DependentUpon>AdminYorum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminYorum.aspx.designer.cs">
+      <DependentUpon>AdminYorum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminYorumDetay.aspx.cs">
+      <DependentUpon>AdminYorumDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminYorumDetay.aspx.designer.cs">
+      <DependentUpon>AdminYorumDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Global.asax.cs">

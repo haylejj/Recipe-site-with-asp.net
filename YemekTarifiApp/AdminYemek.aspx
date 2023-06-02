@@ -70,7 +70,7 @@
 </asp:Panel>
     <asp:Panel runat="server">
         <asp:Panel ID="Panel2" runat="server">
-            <asp:DataList ID="DataList1" runat="server" Width="449px">
+            <asp:DataList ID="DataList1" runat="server" Width="449px" OnSelectedIndexChanged="DataList1_SelectedIndexChanged">
                 <ItemTemplate>
                     <table class="auto-style3">
                         <tr>
@@ -78,7 +78,7 @@
                                 <asp:Label ID="Label1" runat="server" CssClass="auto-style9" Text='<%# Eval("YemekAd") %>'></asp:Label>
                             </td>
                             <td class="auto-style15">
-                                <a href="Kategoriler.aspx?CategoryId=<%#Eval("CategoryId")%>&islem=sil"> <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/Icons/clear.png" Width="30px" CssClass="auto-style14" /></a>
+                                <a href="AdminYemek.aspx?YemekId=<%#Eval("YemekId")%>&islem=sil"> <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/Icons/clear.png" Width="30px" CssClass="auto-style14" /></a>
                             </td>
                             <td class="auto-style8">
                                 <a href="AdminYemekGuncelle.aspx?YemekId=<%#Eval("YemekId")%>"> <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/Icons/updated.png" Width="30px" CssClass="auto-style14" /></a>
