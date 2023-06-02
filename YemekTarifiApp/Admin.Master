@@ -50,22 +50,22 @@
                         <td class="tb5" style="border: thin solid #FFFFFF"><a href="Kategoriler.aspx"><span class="auto-style7"><strong>KATEGORİLER</strong></span></a></td>
                     </tr>
                     <tr>
-                        <td class="tb5" style="border: thin solid #FFFFFF"><a href="AdminYemek.aspx"><strong>YEMEKLER</strong></a></td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><a href="AdminYemek.aspx"><span class="auto-style7"><strong>YEMEKLER</strong></span></a></td>
                     </tr>
                     <tr>
-                        <td class="tb5" style="border: thin solid #FFFFFF"><a href="AdminYorum.aspx"><strong>YORUMLAR</strong></a></td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><a href="AdminYorum.aspx"><span class="auto-style7"><strong>YORUMLAR</strong></span></a></td>
                     </tr>
                     <tr>
-                        <td class="tb5" style="border: thin solid #FFFFFF"><strong>MESAJLAR</strong></td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><a href="AdminMesaj.aspx"><span class="auto-style7"><strong>MESAJLAR</strong></span></a></td>
                     </tr>
                     <tr>
-                        <td class="tb5" style="border: thin solid #FFFFFF"><strong>GÜNÜN</strong> <strong>YEMEĞİ</strong></td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><a href="AdminGununYemegi.aspx"><span class="auto-style7"><strong>GÜNÜN</strong> <strong>YEMEĞİ</strong></span></a></td>
                     </tr>
                     <tr>
-                        <td class="tb5" style="border: thin solid #FFFFFF"><strong>ÖNERİLER</strong></td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><a href="AdminTarifOner.aspx"><span class="auto-style7"><strong>ÖNERİLER</strong></span></a></td>
                     </tr>
                     <tr>
-                        <td class="tb5" style="border: thin solid #FFFFFF"><strong>HAKKIMIZDA</strong></td>
+                        <td class="tb5" style="border: thin solid #FFFFFF"><span class="auto-style7"><strong>HAKKIMIZDA</strong></span></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>

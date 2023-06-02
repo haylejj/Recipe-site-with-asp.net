@@ -30,17 +30,17 @@
                                         <table class="auto-style1">
                                             <tr>
                                                 <td class="auto-style2"><strong>
-                                                    <asp:Label ID="Label6" runat="server" Text='<%# Eval("GununYemegiAd") %>' CssClass="auto-style8"></asp:Label>
+                                                    <asp:Label ID="Label6" runat="server" Text='<%# Eval("YemekAd") %>' CssClass="auto-style8"></asp:Label>
                                                     </strong></td>
                                             </tr>
                                             <tr>
                                                 <td class="auto-style5">
-                                                    <strong>MALZEMELER</strong>:<asp:Label ID="Label7" runat="server" CssClass="auto-style6" Text='<%# Eval("GununYemegiMalzeme") %>'></asp:Label>
+                                                    <strong>MALZEMELER</strong>:<asp:Label ID="Label7" runat="server" CssClass="auto-style6" Text='<%# Eval("YemekMalzeme") %>'></asp:Label>
                                                     <br />
                                                     <table class="auto-style1">
                                                         <tr>
                                                             <td>
-                                                                <strong>TARİF</strong>:<asp:Label ID="Label10" runat="server" CssClass="auto-style6" Text='<%# Eval("GununYemegiTarif") %>'></asp:Label>
+                                                                <strong>TARİF</strong>:<asp:Label ID="Label10" runat="server" CssClass="auto-style6" Text='<%# Eval("YemekTarifi") %>'></asp:Label>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -53,12 +53,12 @@
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <strong>PUAN:</strong><asp:Label ID="Label8" runat="server" Text='<%# Eval("GununYemegiPuan") %>'></asp:Label>
+                                                    <strong>PUAN:</strong><asp:Label ID="Label8" runat="server" Text='<%# Eval("YemekPuan") %>'></asp:Label>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    <strong>TARİH</strong>:<asp:Label ID="Label9" runat="server" Text='<%# Eval("GununYemegiTarih") %>'></asp:Label>
+                                                    <strong>TARİH</strong>:<asp:Label ID="Label9" runat="server" Text='<%# Eval("YemekTarih") %>'></asp:Label>
                                                 </td>
                                             </tr>
                                         </table>

@@ -54,5 +54,17 @@ namespace YemekTarifiApp
             cmd.ExecuteNonQuery();
             conn.connection().Close();
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            SqlCommand cmd = new SqlCommand("Update Yemekler set durum=0",conn.connection());
+            cmd.ExecuteNonQuery();
+            conn.connection().Close();
+
+            SqlCommand cmd2 = new SqlCommand("Update Yemekler set durum=1 where YemekId=@p1", conn.connection());
+            cmd2.Parameters.AddWithValue("@p1", id);
+            cmd2.ExecuteNonQuery();
+            conn.connection().Close();
+        }
     }
 }

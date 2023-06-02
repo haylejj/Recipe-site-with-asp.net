@@ -60,6 +60,12 @@
         <tr>
             <td class="auto-style8">&nbsp;</td>
             <td>
+                <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Günün Yemeği Seç" Width="129px" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style8">&nbsp;</td>
+            <td>
                 &nbsp;</td>
         </tr>
     </table>

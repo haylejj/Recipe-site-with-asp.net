@@ -13,7 +13,7 @@ namespace YemekTarifiApp
         sqlManagement conn=new sqlManagement();
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlCommand cmd = new SqlCommand("Select * from GununYemegi", conn.connection());
+            SqlCommand cmd = new SqlCommand("Select * from Yemekler where Durum=1", conn.connection());
             SqlDataReader dr = cmd.ExecuteReader();
             DataList2.DataSource= dr;
             DataList2.DataBind();
